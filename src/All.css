@@ -1,0 +1,25 @@
+.nav-link {
+    color: rgb(178, 20, 20);
+    padding: 3px 5px;
+    margin: 0px 5px;
+    background-color: azure;
+    border-radius: 5px; 
+}
+
+.x {
+position: absolute;
+bottom: 0px;
+width: 100%;
+text-align: center;
+}
+
+
+.log {
+    position: absolute;
+    right: 150px;
+    background-color: rgb(127, 255, 150);
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    border-radius: 5px;
+}

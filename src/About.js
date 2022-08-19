@@ -1,10 +1,15 @@
 import { Component } from "react";
 import Profile from "./component/Profile";
+import './All.css';
 class About extends Component {
 
   render() {
     
-    return (<Profile/>);
+    return (
+    <div className="profile">
+      <Profile/>
+    </div>
+  )
   }
 };
 

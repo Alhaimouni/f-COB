@@ -7,19 +7,26 @@
 }
 
 .x {
-position: absolute;
+position: relative;
 bottom: 0px;
 width: 100%;
 text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 .log {
     position: absolute;
-    right: 150px;
+    right: 75px;
     background-color: rgb(127, 255, 150);
     width: fit-content;
     box-sizing: border-box;
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+.CarImg {
+    width: 100%;
+    height: 350px;
 }

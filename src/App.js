@@ -10,6 +10,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Form from './component/Form';
 
 class App extends React.Component {
   render() {
@@ -27,6 +28,11 @@ class App extends React.Component {
             <Route 
               exact path="/about"
               element={<About/>}
+            >
+            </Route>
+            <Route 
+              exact path="/form"
+              element={<Form/>}
             >
             </Route>
           </Routes>
